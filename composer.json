@@ -1,0 +1,22 @@
+{
+    "name": "lockdown/laravel-express",
+    "description": "A Express For Laravel",
+    "license": "Apache-2.0",
+    "keywords": ["laravel", "Express", "laravel Express"],
+    "authors": [
+        {
+            "name": "fengjiandong",
+            "email": "18632698275@163.com"
+        }
+    ],
+   
+    "autoload": {
+        "psr-4": {
+          "lockdown\\Express\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.1"
+    }
+}
